@@ -12,8 +12,4 @@
 	<project name="LineageOS/android_packages_resources_devicesettings" path="packages/resources/devicesettings" remote="github" revision="lineage-16.0" />
 
 	<project name="AgustinLorenzo/gcc-prebuilts" path="prebuilts/gcc/linux-x86/aarch64/aarch64-linaro-7.3" remote="github" revision="master" />
-
-	<remove-project path="prebuilts/clang/host/linux-x86" name="platform/prebuilts/clang/host/linux-x86" groups="pdk" clone-depth="1"/>
-	<project path="prebuilts/clang/host/linux-x86" name="AgustinLorenzo/platform_prebuilts_clang_host_linux-x86" revision="oreo-mr1" groups="pdk" />
-
 </manifest>
