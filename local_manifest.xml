@@ -28,6 +28,4 @@
        <remove-project path="vendor/aosip" name="platform_vendor_aosip" />
 
 	<project name="AgustinLorenzo/platform_vendor_aosip" path="vendor/aosip" remote="github" revision="pie" />
-
-       <project name="LineageOS/android_vendor_qcom_opensource_thermal-engine" path="vendor/qcom/opensource/thermal-engine" remote="github" revision="lineage-16.0" />
 </manifest>
