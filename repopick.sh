@@ -2,8 +2,5 @@
 
 source build/envsetup.sh
 
-repopick -t sbBrightness
-repopick -t swype
-repopick -t auto-qs
-repopick -t pie-qc-telephony-ext
-repopick 6338
+repopick -t translations
+repopick 6338 6497-6498 6361 6045 6507
