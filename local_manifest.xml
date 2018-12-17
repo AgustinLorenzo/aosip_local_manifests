@@ -25,8 +25,10 @@
 
 	<project name="LineageOS/android_vendor_nxp_opensource_hidlimpl" path="vendor/nxp/opensource/hidlimpl" remote="github" revision="lineage-16.0" />
 
-       <remove-project path="vendor/aosip" name="platform_vendor_aosip" />
+        <remove-project path="vendor/aosip" name="platform_vendor_aosip" />
 
 	<project name="AgustinLorenzo/platform_vendor_aosip" path="vendor/aosip" remote="github" revision="pie" />
+
+	<remove-project path="vendor/qcom/opensource/cryptfs_hw" name="platform_vendor_qcom_opensource_cryptfs_hw" />
 
 </manifest>
