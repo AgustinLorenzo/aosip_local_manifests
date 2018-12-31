@@ -11,8 +11,6 @@
 
 	<project name="LineageOS/android_packages_resources_devicesettings" path="packages/resources/devicesettings" remote="github" revision="lineage-16.0" />
 
-	<project name="AgustinLorenzo/gcc-prebuilts" path="prebuilts/gcc/linux-x86/aarch64/aarch64-linaro-7.3" remote="github" revision="master" />
-
 	<remove-project path="vendor/aosip" name="platform_vendor_aosip" />
 
 	<project name="AgustinLorenzo/platform_vendor_aosip" path="vendor/aosip" remote="github" revision="pie" />
