@@ -2,5 +2,6 @@
 
 source build/envsetup.sh
 
-repopick -t translations
-repopick 6338 6497-6498 6361 6045 6507
+repopick -t button-lights
+repopick -t dual-sim
+repopick 6338 6622
