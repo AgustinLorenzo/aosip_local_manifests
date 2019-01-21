@@ -10,9 +10,4 @@
 	<project name="AgustinLorenzo/android_kernel_leeco_msm8996" path="kernel/leeco/msm8996" remote="github" revision="p9.0" />
 
 	<project name="LineageOS/android_packages_resources_devicesettings" path="packages/resources/devicesettings" remote="github" revision="lineage-16.0" />
-
-	<remove-project path="vendor/aosip" name="platform_vendor_aosip" />
-
-	<project name="AgustinLorenzo/platform_vendor_aosip" path="vendor/aosip" remote="github" revision="pie" />
-
 </manifest>
