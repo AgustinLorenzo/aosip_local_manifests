@@ -2,13 +2,8 @@
 
 source build/envsetup.sh
 
-repopick -t button-lights
-repopick 6338
-repopick -t blackaf
-repopick -t prox
+repopick -t changelog
 repopick -t l3
-repopick -t date-position
-repopick -t blink
-repopick -t night-light
-repopick 6798-6800 6814 6876
-
+repopick 7062 6126 7026 7064 7065-7067
+repopick -t ext-pan
+repopick -t sysserv-pie
