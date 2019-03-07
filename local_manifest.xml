@@ -1,6 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
+    <remote name="agustin"
+           fetch="https://github.com/AgustinLorenzo"
+           revision="refs/heads/pie" />
+
 	<project name="AgustinLorenzo/android_device_leeco_zl1" path="device/leeco/zl1" remote="github" revision="lineage-16.0" />
 
 	<project name="AgustinLorenzo/android_device_leeco_msm8996-common" path="device/leeco/msm8996-common" remote="github" revision="lineage-16.0" />
@@ -10,4 +14,13 @@
 	<project name="AgustinLorenzo/android_kernel_leeco_msm8996" path="kernel/leeco/msm8996" remote="github" revision="p9.0" />
 
 	<project name="LineageOS/android_packages_resources_devicesettings" path="packages/resources/devicesettings" remote="github" revision="lineage-16.0" />
+
+    <remove-project path="frameworks/base" name="platform_frameworks_base"/>
+    <project path="frameworks/base" name="platform_frameworks_base" remote="agustin"/>
+		
+    <remove-project path="packages/apps/OwlsNest" name="platform_packages_apps_OwlsNest" />
+	<project path="packages/apps/OwlsNest" name="platform_packages_apps_OwlsNest" remote="agustin"/>
+
+    <remove-project path="packages/services/Telephony" name="platform_packages_services_Telephony" />
+	<project path="packages/services/Telephony" name="platform_packages_services_Telephony" remote="agustin"/>
 </manifest>
