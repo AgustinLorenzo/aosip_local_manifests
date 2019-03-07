@@ -23,4 +23,8 @@
 
     <remove-project path="packages/services/Telephony" name="platform_packages_services_Telephony" />
 	<project path="packages/services/Telephony" name="platform_packages_services_Telephony" remote="agustin"/>
+	
+	<remove-project path="vendor/aosip" name="platform_vendor_aosip" />
+	<project path="vendor/aosip" name="platform_vendor_aosip" remote="agustin"/>
+	
 </manifest>
