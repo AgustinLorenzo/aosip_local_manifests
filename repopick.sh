@@ -4,6 +4,9 @@ source build/envsetup.sh
 
 repopick -t changelog
 repopick -t l3
-repopick 7224 7352 7353 7382
-repopick -t ext-pan
-repopick -t vol-steps
+repopick -t refactor-kernel-modules
+repopick -t bt-icon
+repopick -t wps
+repopick -t vol-panel
+repopick -t exposures
+repopick 7046 7517 7519 7520 7523 7524
