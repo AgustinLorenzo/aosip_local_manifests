@@ -7,6 +7,5 @@ repopick -t l3
 repopick -t refactor-kernel-modules
 repopick -t bt-icon
 repopick -t wps
-repopick -t vol-panel
 repopick -t exposures
-repopick 7046 7517 7519 7520 7523 7524
+repopick 7046 7519 7520 7523 7524
