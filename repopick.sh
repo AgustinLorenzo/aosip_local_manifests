@@ -2,4 +2,5 @@
 
 source build/envsetup.sh
 
-repopick -t pa-pocket sb-dt2s
+repopick -t q-clock-v2 perms theme padding webview
+repopick 7929
