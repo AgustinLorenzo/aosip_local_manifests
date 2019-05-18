@@ -31,5 +31,10 @@
     <project path="vendor/aosip" name="platform_vendor_aosip" remote="aosip"/>
 	
     <project path="packages/apps/AgustindevStats" name="packages_apps_AgustindevStats" remote="aosip"/>
+	
+    <remove-project path="device/aosip/sepolicy" name="device_aosip_sepolicy" />
+    <project path="device/aosip/sepolicy" name="device_aosip_sepolicy" remote="aosip" />
 
+    <remove-project path="packages/apps/Settings" name="platform_packages_apps_Settings" />
+    <project path="packages/apps/Settings" name="platform_packages_apps_Settings" remote="aosip" />
 </manifest>
