@@ -38,4 +38,6 @@
 
     <remove-project path="hardware/aosip/interfaces" name="platform_hardware_aosip_interfaces" />
     <project path="hardware/aosip/interfaces" name="platform_hardware_aosip_interfaces" remote="aosip-me" />
+
+    <project name="android_hardware_lineage_livedisplay" path="hardware/lineage/livedisplay" remote="leeco" revision="lineage-16.0" />
 </manifest>
