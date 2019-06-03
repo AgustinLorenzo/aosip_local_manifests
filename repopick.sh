@@ -2,5 +2,5 @@
 
 source build/envsetup.sh
 
-repopick -t updater-notif-fixup q-clock-v2 agg-batt pulse lock-stuff bt adb sysserv-pie
-repopick 8062
+repopick -t updater-notif-fixup q-clock-v2 pulse sysserv-pie telephony fixes flash-util
+repopick 8114
