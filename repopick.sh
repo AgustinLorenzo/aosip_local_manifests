@@ -2,4 +2,4 @@
 
 source build/envsetup.sh
 
-repopick -t updater-notif-fixup q-clock-v2
+repopick -t updater-notif-fixup q-battery
