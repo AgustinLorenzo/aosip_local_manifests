@@ -14,7 +14,7 @@
 
     <project name="proprietary_vendor_leeco" path="vendor/leeco" remote="leeco" revision="lineage-16.0" />
 
-    <project name="android_kernel_leeco_msm8996" path="kernel/leeco/msm8996" remote="leeco" revision="p9.0" />
+    <project name="android_kernel_leeco_msm8996-los" path="kernel/leeco/msm8996" remote="leeco" revision="lineage-16.0" />
 
     <project name="LineageOS/android_packages_resources_devicesettings" path="packages/resources/devicesettings" remote="github" revision="lineage-16.0" />
 
@@ -38,6 +38,9 @@
 
     <remove-project path="hardware/aosip/interfaces" name="platform_hardware_aosip_interfaces" />
     <project path="hardware/aosip/interfaces" name="platform_hardware_aosip_interfaces" remote="aosip-me" />
+
+    <remove-project path="hardware/qcom/power" name="platform_hardware_qcom_power" />
+    <project path="hardware/qcom/power" name="platform_hardware_qcom_power" remote="aosip-me" />
 
     <project name="android_hardware_lineage_livedisplay" path="hardware/lineage/livedisplay" remote="leeco" revision="lineage-16.0" />
 </manifest>
