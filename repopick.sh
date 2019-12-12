@@ -2,4 +2,4 @@
 
 source build/envsetup.sh
 
-repopick -t
+repopick -t av-merge
