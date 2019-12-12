@@ -3,41 +3,18 @@
 
     <remote name="aosip-me"
            fetch="https://github.com/AgustinLorenzo"
-           revision="refs/heads/pie" />
+           revision="refs/heads/ten" />
 
     <remote name="leeco"
            fetch="https://github.com/AgustinLorenzo" />
 
-    <project name="android_device_leeco_zl1" path="device/leeco/zl1" remote="leeco" revision="lineage-16.0" />
+    <project name="android_device_leeco_zl1" path="device/leeco/zl1" remote="leeco" revision="lineage-17.0" />
 
-    <project name="android_device_leeco_msm8996-common" path="device/leeco/msm8996-common" remote="leeco" revision="lineage-16.0" />
+    <project name="android_device_leeco_msm8996-common" path="device/leeco/msm8996-common" remote="leeco" revision="lineage-17.0" />
 
-    <project name="proprietary_vendor_leeco" path="vendor/leeco" remote="leeco" revision="lineage-16.0" />
+    <project name="proprietary_vendor_leeco" path="vendor/leeco" remote="leeco" revision="lineage-17.0" />
 
-    <project name="android_kernel_leeco_msm8996" path="kernel/leeco/msm8996" remote="leeco" revision="p9.0" />
+    <project name="android_kernel_leeco_msm8996" path="kernel/leeco/msm8996" remote="leeco" revision="q10.0" />
 
-    <project name="LineageOS/android_packages_resources_devicesettings" path="packages/resources/devicesettings" remote="github" revision="lineage-16.0" />
-
-    <remove-project path="frameworks/base" name="platform_frameworks_base"/>
-    <project path="frameworks/base" name="platform_frameworks_base" remote="aosip-me"/>
-
-    <remove-project path="packages/apps/OwlsNest" name="platform_packages_apps_OwlsNest" />
-    <project path="packages/apps/OwlsNest" name="platform_packages_apps_OwlsNest" remote="aosip-me"/>
-
-    <remove-project path="packages/services/Telephony" name="platform_packages_services_Telephony" />
-    <project path="packages/services/Telephony" name="platform_packages_services_Telephony" remote="aosip-me"/>
-
-    <remove-project path="vendor/aosip" name="platform_vendor_aosip" />
-    <project path="vendor/aosip" name="platform_vendor_aosip" remote="aosip-me"/>
-	
-    <remove-project path="device/aosip/sepolicy" name="device_aosip_sepolicy" />
-    <project path="device/aosip/sepolicy" name="device_aosip_sepolicy" remote="aosip-me" />
-
-    <remove-project path="packages/apps/Settings" name="platform_packages_apps_Settings" />
-    <project path="packages/apps/Settings" name="platform_packages_apps_Settings" remote="aosip-me" />
-
-    <remove-project path="hardware/aosip/interfaces" name="platform_hardware_aosip_interfaces" />
-    <project path="hardware/aosip/interfaces" name="platform_hardware_aosip_interfaces" remote="aosip-me" />
-
-    <project name="android_hardware_lineage_livedisplay" path="hardware/lineage/livedisplay" remote="leeco" revision="lineage-16.0" />
+    <project name="LineageOS/android_packages_resources_devicesettings" path="packages/resources/devicesettings" remote="github" revision="lineage-17.0" />
 </manifest>
