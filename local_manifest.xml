@@ -9,6 +9,8 @@
            fetch="https://github.com/AgustinLorenzo" />
 
     <project name="android_device_leeco_zl1" path="device/leeco/zl1" remote="leeco" revision="lineage-17.0" />
+	
+    <project name="android_device_leeco_x2" path="device/leeco/x2" remote="leeco" revision="lineage-17.0" />
 
     <project name="android_device_leeco_msm8996-common" path="device/leeco/msm8996-common" remote="leeco" revision="lineage-17.0" />
 
