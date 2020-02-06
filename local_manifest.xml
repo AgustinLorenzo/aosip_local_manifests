@@ -8,13 +8,13 @@
     <remote name="leeco"
            fetch="https://github.com/AgustinLorenzo" />
 
-    <project name="android_device_leeco_zl1" path="device/leeco/zl1" remote="leeco" revision="lineage-17.0" />
+    <project name="android_device_leeco_zl1" path="device/leeco/zl1" remote="leeco" revision="lineage-17.1" />
 	
-    <project name="android_device_leeco_x2" path="device/leeco/x2" remote="leeco" revision="lineage-17.0" />
+    <project name="android_device_leeco_x2" path="device/leeco/x2" remote="leeco" revision="lineage-17.1" />
 
-    <project name="android_device_leeco_msm8996-common" path="device/leeco/msm8996-common" remote="leeco" revision="lineage-17.0" />
+    <project name="android_device_leeco_msm8996-common" path="device/leeco/msm8996-common" remote="leeco" revision="lineage-17.1" />
 
-    <project name="proprietary_vendor_leeco" path="vendor/leeco" remote="leeco" revision="lineage-17.0" />
+    <project name="proprietary_vendor_leeco" path="vendor/leeco" remote="leeco" revision="lineage-17.1" />
 
     <project name="android_kernel_leeco_msm8996" path="kernel/leeco/msm8996" remote="leeco" revision="q10.0" />
 </manifest>
