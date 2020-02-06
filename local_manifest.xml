@@ -17,9 +17,4 @@
     <project name="proprietary_vendor_leeco" path="vendor/leeco" remote="leeco" revision="lineage-17.0" />
 
     <project name="android_kernel_leeco_msm8996" path="kernel/leeco/msm8996" remote="leeco" revision="q10.0" />
-
-    <project name="LineageOS/android_packages_resources_devicesettings" path="packages/resources/devicesettings" remote="github" revision="lineage-17.0" />
-	
-    <remove-project path="system/core" name="platform_system_core"/>
-    <project path="system/core" name="platform_system_core" remote="aosip-me"/>
 </manifest>
