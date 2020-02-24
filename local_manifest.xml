@@ -23,4 +23,7 @@
 
     <remove-project path="bionic" name="platform_bionic"/>
     <project path="bionic" name="platform_bionic" remote="aosip-me" revision="ten" />
+	
+    <remove-project path="packages/apps/OwlsNest" name="platform_packages_apps_OwlsNest" />
+    <project path="packages/apps/OwlsNest" name="platform_packages_apps_OwlsNest" remote="aosip-me" revision="ten"/>
 </manifest>
