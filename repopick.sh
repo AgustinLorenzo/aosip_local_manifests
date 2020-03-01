@@ -2,4 +2,4 @@
 
 source build/envsetup.sh
 
-repopick -t fingerprint ambient-light net-traf updater-notif-fixup-ten recovery-dyn camera themepicker amb-pulse misc nav-stuffs l3 av-merge pixel
+repopick -t fingerprint net-traf updater-notif-fixup-ten recovery-dyn camera av-merge overlay tinfoil-hat configs hide-gesture ae-stuffs && repopick 11792-11807
